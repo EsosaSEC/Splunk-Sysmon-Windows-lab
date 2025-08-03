@@ -28,9 +28,9 @@ This guide provides step-by-step instructions to set up a Splunk Universal Forwa
 ├── configs/
 │   ├── inputs.conf              # Sample Splunk inputs configuration for Windows and Sysmon logs
 ├── images/
-│   ├── splunk_installer.png     # Screenshot of Splunk Universal Forwarder installer GUI
-│   ├── sysmon_event_viewer.png  # Screenshot of Sysmon logs in Event Viewer
-│   ├── splunk_search.png        # Screenshot of logs in Splunk web interface
+│   ├── splunk_installer.md     # Screenshot of Splunk Universal Forwarder installer GUI
+│   ├── sysmon_event_viewer.md  # Screenshot of Sysmon logs in Event Viewer
+│   ├── splunk_Logs.md        # Screenshot of logs in Splunk web interface
 ├── README.md                    # This file
 ```
 
