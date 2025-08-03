@@ -47,7 +47,7 @@ Sysmon logs detailed system activity (processes, network, files) for cybersecuri
    - Save to C:\Sysmon.
    
 3.  Install Sysmon:
-    - Go to powershell and change directory to the path that contains Sysmon and the Sysmon config file.
+    - Go to PowerShell and change the directory to the path that contains Sysmon and the Sysmon config file.
          ``` 
          cd C:\Users\Esosa\Downloads\Sysmon>
          ```
@@ -61,7 +61,7 @@ Sysmon logs detailed system activity (processes, network, files) for cybersecuri
         ```
      - Verify Sysmon is running:
        - Open Services (Win + R, type services.msc).
-       - Confirm Sysmon service is Running.
+       - Confirm Sysmon service is running.
        
      - Check Sysmon logs:
        - Open Event Viewer (Win + R, type eventvwr.msc).
@@ -77,7 +77,7 @@ Sysmon logs detailed system activity (processes, network, files) for cybersecuri
  - Run the Installer:
      - Double-click the .msi file in C:\Downloads.
      - Accept the license agreement and click Next.
-     - Create credentials for administrator account.
+     - Create credentials for the administrator account.
        
  - Specify Receiving Indexer:
     - Enter the Splunk indexer’s hostname/IP and port (e.g., 192.168.19.15:9997 or 127.0.0.1:9997 for local).
@@ -98,7 +98,7 @@ Configure the forwarder to collect Windows Event Logs and Sysmon logs.
      
 - Edit inputs.conf:
    - Right-click inputs.conf, select Open with > Notepad (run as Administrator).
-   - Use [configs/inputs.conf](.) from this repo
+   - Use [configs/inputs.conf](https://github.com/EsosaSEC/Splunk-Sysmon-Windows-lab/blob/main/config/Inputs.conf) from this repo
    - Save inputs.conf and close Notepad.
    - Restart the forwarder via Services (services.msc).
 
@@ -126,7 +126,7 @@ Configure the forwarder to collect Windows Event Logs and Sysmon logs.
     - Check Event Viewer for errors.
 
 - No Logs in Splunk:
-   - Verify index (endpoint) exist on the indexer.
+   - Verify the index (endpoint) exists on the indexer.
    - Check C:\Program Files\SplunkUniversalForwarder for errors.
    - Ensure port 9997 is open in Windows Defender Firewall.
 
