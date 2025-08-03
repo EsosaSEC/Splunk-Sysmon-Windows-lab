@@ -27,15 +27,10 @@ This guide provides step-by-step instructions to set up a Splunk Universal Forwa
  ```
 ├── configs/
 │   ├── inputs.conf              # Sample Splunk inputs configuration for Windows and Sysmon logs
-│   ├── sysmonconfig-export.xml  # Sysmon configuration (sourced from SwiftOnSecurity/sysmon-config)
 ├── images/
 │   ├── splunk_installer.png     # Screenshot of Splunk Universal Forwarder installer GUI
 │   ├── sysmon_event_viewer.png  # Screenshot of Sysmon logs in Event Viewer
 │   ├── splunk_search.png        # Screenshot of logs in Splunk web interface
-├── docs/
-│   ├── setup-guide.md           # Detailed setup guide (this document)
-├── .gitignore                   # Ignores sensitive files (e.g., credentials, logs)
-├── LICENSE                      # MIT License
 ├── README.md                    # This file
 ```
 
